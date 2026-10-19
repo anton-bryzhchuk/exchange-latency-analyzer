@@ -1,0 +1,23 @@
+# Secrets / local config
+.env
+
+# Collected data (never commit research data dumps)
+*.db
+*.db-wal
+*.db-shm
+*.csv
+*.json
+!cap_thresholds.example.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
