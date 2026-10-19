@@ -71,7 +71,7 @@ Supporting collectors: `bookticker_shadow.py` and `orderbook_shadow.py`
 ## Setup
 
 ```bash
-git clone https://github.com/mesut101010/exchange-latency-analyzer.git
+git clone https://github.com/anton-bryzhchuk/exchange-latency-analyzer.git
 cd exchange-latency-analyzer
 python3.11 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
